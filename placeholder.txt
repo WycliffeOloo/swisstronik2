@@ -1,1 +1,30 @@
+WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ npx hardhat run scripts/deploy.js --network swisstronik
+Downloading compiler 0.8.27
+Compiled 7 Solidity files successfully (evm target: paris).
+Deploying contracts with the account: 0x573E07B6F63eEAb2087399c34764D3Bb26EdB8f4
+Token address: 0xE532C1BB33Ec2796e6C7d0c0A8A482f6C50006A7
+@WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ 
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+@WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ npx hardhat run scripts/mint.js --network swisstronik
+Minting 100.0 tokens...
+Transaction submitted! Transaction hash: 0x7c26181895a217c500c47a9ace1d48cf36a436c761f078b6ecb7df45c50895ba
+Transaction completed successfully! 100.0 tokens minted to 0x573E07B6F63eEAb2087399c34764D3Bb26EdB8f4.
+Transaction hash: 0x7c26181895a217c500c47a9ace1d48cf36a436c761f078b6ecb7df45c50895ba
+@WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ 
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+@WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ npx hardhat run scripts/transfer.js --network swisstronik
+Transferring 1.0 tokens to 0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1...
+Transaction submitted! Transaction hash: 0xb867f9685e7e43a2aa027b288951e7604342f6a09e64894a654a78681b344cee
+Transaction completed successfully! 1.0 tokens transferred to 0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1.
+Transaction hash: 0xb867f9685e7e43a2aa027b288951e7604342f6a09e64894a654a78681b344cee
+@WycliffeOloo ➜ /workspaces/swisstronik2/MyERC20Token (main) $ 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
